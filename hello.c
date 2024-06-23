@@ -17,15 +17,6 @@ void f3 (int p1, int p2, int *p3, int *p4) {
     *p4 = p1 + p2;
 }
 
-class {
-    public:
-        int i;
-        void do_something();
-    private:
-        int p;
-        void private_stuff();
-}
-
 int main (int argc, char **argv) {
     char i;
     char *j;
